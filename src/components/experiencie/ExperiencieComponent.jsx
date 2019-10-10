@@ -5,7 +5,7 @@ const ExperiencieComponent = () => {
     return ( 
         <section id="experience" className="experience">
             <div className="section-heading text-center">
-                <h2>experience</h2>
+                <h2>Experiencia</h2>
             </div>
             <div className="container">
                 <div className="experience-content">
@@ -16,20 +16,21 @@ const ExperiencieComponent = () => {
                                     <div className="row">
                                         <div className="col-md-5">
                                             <div className="experience-time text-right">
-                                                <h2>2018 - Present</h2>
-                                                <h3>creative director</h3>
+                                                <h2>2019 - Presente</h2>
+                                                <h3>Frontend Developer</h3>
                                             </div>
                                         </div>
-                                        <div className="col-md-offset-1 col-md-5">
+                                        <div className="offset-md-1 col-md-5">
                                             <div className="timeline">
                                                 <div className="timeline-content">
                                                     <h4 className="title">
                                                         <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                                                        hoplony tech limited
+                                                        Selectra
                                                     </h4>
-                                                    <h5>newyork, USA</h5>
+                                                    <h5>Madrid, España</h5>
                                                     <p className="description">
-                                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
+                                                        Maquetación, desarrollo y mantenimiento de aplicaciones internas.
+                                                        Desarrollo web con: HTML5, CSS3, SASS, Javascript(React, Redux), Typescript.
                                                     </p>
                                                 </div>
                                             </div>
@@ -40,35 +41,37 @@ const ExperiencieComponent = () => {
                             <li>
                                 <div className="single-timeline-box fix">
                                     <div className="row">
-                                        <div className="col-md-offset-1 col-md-5 experience-time-responsive">
+                                        <div className="offset-md-1 col-md-5 experience-time-responsive">
                                             <div className="experience-time">
                                                 <h2>
                                                     <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                                                    2016 - 2018
+                                                    2018 - 2019
                                                 </h2>
-                                                <h3>associate design director</h3>
+                                                <h3>Frontend Developer</h3>
                                             </div>
                                         </div>
                                         <div className="col-md-5">
                                             <div className="timeline">
                                                 <div className="timeline-content text-right">
                                                     <h4 className="title">
-                                                        hoplony tech limited
+                                                        iAhorro
                                                     </h4>
-                                                    <h5>newyork, USA</h5>
+                                                    <h5>Madrid, España</h5>
                                                     <p className="description">
-                                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
+                                                        Diseño, maquetación, mantenimiento y refactorización de la web iAhorro y desarrrollo de aplicaciones 
+                                                        internas.
+                                                        Desarrollo web con: HTML5, CSS3, SASS, Javascript (JQuery, Vue)
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-offset-1 col-md-5 experience-time-main">
+                                        <div className="offset-md-1 col-md-5 experience-time-main">
                                             <div className="experience-time">
                                                 <h2>
                                                     <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                                                    2016 - 2018
+                                                    2018 - 2019
                                                 </h2>
-                                                <h3>associate design director</h3>
+                                                <h3>Frontend Developer</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -79,20 +82,21 @@ const ExperiencieComponent = () => {
                                     <div className="row">
                                         <div className="col-md-5">
                                             <div className="experience-time text-right">
-                                                <h2>2013 - 2016</h2>
-                                                <h3>senior UI/UX designer</h3>
+                                                <h2>2017 - 2018</h2>
+                                                <h3>Marketing Online Manager</h3>
                                             </div>
                                         </div>
-                                        <div className="col-md-offset-1 col-md-5">
+                                        <div className="offset-md-1 col-md-5">
                                             <div className="timeline">
                                                 <div className="timeline-content">
                                                     <h4 className="title">
                                                         <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                                                        hoplony tech limited
+                                                        Sensaled
                                                     </h4>
-                                                    <h5>newyork, USA</h5>
+                                                    <h5>Madrid, España</h5>
                                                     <p className="description">
-                                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
+                                                       Realización de campañas para RRSS, diseño y envío de emailing en mailchimp, manejo Adwords y Analytics
+                                                       comunicación directa con clientes y actualización de la web en Prestashop. 
                                                     </p>
                                                 </div>
                                             </div>
@@ -103,35 +107,36 @@ const ExperiencieComponent = () => {
                             <li>
                                 <div className="single-timeline-box fix">
                                     <div className="row">
-                                        <div className="col-md-offset-1 col-md-5 experience-time-responsive">
+                                        <div className="offset-md-1 col-md-5 experience-time-responsive">
                                             <div className="experience-time">
                                                 <h2>
                                                     <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                                                    2012 - 2013
+                                                    2017
                                                 </h2>
-                                                <h3>UI/UX designer</h3>
+                                                <h3>Diseñadora Digital</h3>
                                             </div>
                                         </div>
                                         <div className="col-md-5">
                                             <div className="timeline">
                                                 <div className="timeline-content text-right">
                                                     <h4 className="title">
-                                                        hoplony tech limited
+                                                        Fit Food Spain
                                                     </h4>
-                                                    <h5>newyork, USA</h5>
+                                                    <h5>Madrid, España</h5>
                                                     <p className="description">
-                                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
+                                                        Realización de diferentes diseños para la marca, banners digitales
+                                                        como piezas off-line.
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-offset-1 col-md-5 experience-time-main">
+                                        <div className="offset-md-1 col-md-5 experience-time-main">
                                             <div className="experience-time">
                                                 <h2>
                                                     <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                                                    2012 - 2013
+                                                    2017
                                                 </h2>
-                                                <h3>UI/UX designer</h3>
+                                                <h3>Diseñadora Digital</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -142,20 +147,21 @@ const ExperiencieComponent = () => {
                                     <div className="row">
                                         <div className="col-md-5">
                                             <div className="experience-time text-right">
-                                                <h2>2010 - 2012</h2>
-                                                <h3>frontend developer</h3>
+                                                <h2>2015 - 2016</h2>
+                                                <h3>Trafficker Digital</h3>
                                             </div>
                                         </div>
-                                        <div className="col-md-offset-1 col-md-5">
+                                        <div className="offset-md-1 col-md-5">
                                             <div className="timeline">
                                                 <div className="timeline-content">
                                                     <h4 className="title">
                                                         <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                                                        hoplony tech limited
+                                                        EL TIEMPO Casa Editorial
                                                     </h4>
-                                                    <h5>newyork, USA</h5>
+                                                    <h5>Bogotá, Colombia</h5>
                                                     <p className="description">
-                                                        Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
+                                                        Subir pauta display al portal digital, formatos tradicionales y alto impacto.
+                                                        Realización de direfentes campañas digitales para marcas del grupo EL TIEMPO Casa Editorial.
                                                     </p>
                                                 </div>
                                             </div>

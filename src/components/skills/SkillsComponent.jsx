@@ -1,6 +1,6 @@
 import React from 'react';
 import './skills.component.scss';
-import ProgressBar from 'react-bootstrap/ProgressBar'
+import ProgressBarComponent from './components/progress-bar-skill.component';
 
 const SkillsComponent = () => {
     return (      
@@ -13,80 +13,20 @@ const SkillsComponent = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="single-skill-content">
-                                <div className="barWrapper">
-                                    <span className="progressText">HTML5 - CSS</span>
-                                    <div className="single-progress-txt">
-                                        <ProgressBar now={90} />
-                                        <h3>90%</h3>
-                                    </div>
-                                </div>
-                                <div className="barWrapper">
-                                    <span className="progressText">SCSS</span>
-                                    <div className="single-progress-txt">
-                                        <ProgressBar now={90} />
-                                        <h3>90%</h3>	
-                                    </div>
-                                </div>
-                                <div className="barWrapper">
-                                    <span className="progressText">Flexbox-Grid</span>
-                                    <div className="single-progress-txt">
-                                        <ProgressBar now={70} />
-                                        <h3>70%</h3>	
-                                    </div>
-                                </div>
-                                <div className="barWrapper">
-                                    <span className="progressText">Javascript | React | Vue </span>
-                                    <div className="single-progress-txt">
-                                        <ProgressBar now={60} />
-                                        <h3>60%</h3>	
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="barWrapper">
-                                <span className="progressText">Sketch</span>
-                                <div className="single-progress-txt">
-                                    <ProgressBar now={60} />
-                                    <h3>60%</h3>	
-                                </div>
+                                <ProgressBarComponent porcent={90} skill={'HTML5 - CSS'} />
+                                <ProgressBarComponent porcent={70} skill={'SCSS'} />
+                                <ProgressBarComponent porcent={70} skill={'Flexbox-Grid'} />
+                                <ProgressBarComponent porcent={60} skill={'Javascript | React | Vue'} />
+                                <ProgressBarComponent porcent={60} skill={'Sketch'} />
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="single-skill-content">
-                                <div className="barWrapper">
-                                    <span className="progressText">InVision</span>
-                                    <div className="single-progress-txt">
-                                        <ProgressBar now={80} />
-                                        <h3>80%</h3>	
-                                    </div>
-                                </div>
-                                <div className="barWrapper">
-                                    <span className="progressText">Photoshop</span>
-                                    <div className="single-progress-txt">
-                                        <ProgressBar now={85} />
-                                        <h3>85%</h3>	
-                                    </div>
-                                </div>
-                                <div className="barWrapper">
-                                    <span className="progressText">Ilustrator</span>
-                                    <div className="single-progress-txt">
-                                        <ProgressBar now={80} />
-                                        <h3>80%</h3>	
-                                    </div>
-                                </div>
-                                <div className="barWrapper">
-                                    <span className="progressText">Git</span>
-                                    <div className="single-progress-txt">
-                                        <ProgressBar now={70} />
-                                        <h3>70%</h3>	
-                                    </div>
-                                </div>
-                                <div className="barWrapper">
-                                    <span className="progressText">PHP - Laravel</span>
-                                    <div className="single-progress-txt">
-                                        <ProgressBar now={40} />
-                                        <h3>40%</h3>	
-                                    </div>
-                                </div>
+                                <ProgressBarComponent porcent={80} skill={'InVision'} />
+                                <ProgressBarComponent porcent={85} skill={'Photoshop'} />
+                                <ProgressBarComponent porcent={80} skill={'Ilustrator'} />
+                                <ProgressBarComponent porcent={70} skill={'Git'} />
+                                <ProgressBarComponent porcent={40} skill={'PHP - Laravel'} />
                             </div>
                         </div>
                     </div>
