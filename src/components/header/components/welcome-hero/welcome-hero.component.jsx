@@ -9,7 +9,7 @@ const WelcomeHeroComponent = () => {
                     <div className="col-md-12 text-center">
                         <div className="header-text">
                             <h2>Hola <span>,</span> soy <br/> Angélica Beltrán <span>.</span></h2>
-                            <p>ui/ux designer and front-end developer</p>
+                            <p>front-end developer & ui/ux designer</p>
                             {/* <a href="assets/download/browney.txt" download>download resume</a> */}
                         </div>
                     </div>

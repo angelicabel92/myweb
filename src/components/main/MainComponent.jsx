@@ -4,7 +4,7 @@ import AboutComponent from '../about/AboutComponent';
 import EducationComponent from '../education/EducationComponent';
 import SkillsComponent from '../skills/SkillsComponent';
 import ExperiencieComponent from '../experiencie/ExperiencieComponent';
-import PortfolioComponent from '../portfolio/PortfolioComponent';
+// import PortfolioComponent from '../portfolio/PortfolioComponent';
 import ContactComponent from '../contact/ContactComponent';
 import FooterComponent from '../footer/FooterComponent';
 import NavComponent from '../nav/nav.component';
@@ -19,7 +19,7 @@ const MainComponent = () => {
             <EducationComponent/>
             <SkillsComponent/>
             <ExperiencieComponent/>
-            <PortfolioComponent/>
+            {/* <PortfolioComponent/> */}
             <ContactComponent/>
             <FooterComponent/>
         </div>
