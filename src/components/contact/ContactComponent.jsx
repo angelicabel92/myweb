@@ -12,11 +12,6 @@ class ContactComponent extends Component {
             message: ''
         }
     }
-    componentDidMount = () => {
-        let db = firebase
-        console.log(db)
-    }
-    
 
     onChange = e => {
         this.setState({
@@ -35,12 +30,12 @@ class ContactComponent extends Component {
         };
 
         if (email && message) {
-
-            // database.ref('contact').push(form).then(() => {
-            //     console.log('enviado')
-            // }).catch(() => {
-            //     console.log('error')
-            // })
+            let database = firebase.database();
+            database.ref('contact').push(form).then(() => {
+                console.log(form)
+            }).catch(() => {
+                console.log('error')
+            })
         }
     }
 
